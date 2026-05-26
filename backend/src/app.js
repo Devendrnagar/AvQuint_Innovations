@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'https://av-quint-innovations.vercel.app'
+    origin: process.env.CLIENT_URL || 'https://av-quint-innovations.vercel.app/'
   })
 );
 app.use(express.json());
